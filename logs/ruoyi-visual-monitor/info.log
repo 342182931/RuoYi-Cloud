@@ -1,0 +1,25 @@
+00:05:42.310 [nacos-grpc-client-executor-182] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 149
+00:05:42.324 [nacos-grpc-client-executor-182] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 149
+00:15:00.732 [nacos-grpc-client-executor-365] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 154
+00:15:00.739 [nacos-grpc-client-executor-365] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 154
+00:15:41.864 [nacos-grpc-client-executor-378] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 157
+00:15:41.864 [nacos-grpc-client-executor-378] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 157
+00:17:13.048 [nacos-grpc-client-executor-408] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 161
+00:17:13.054 [nacos-grpc-client-executor-408] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 161
+00:29:05.808 [nacos-grpc-client-executor-636] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 164
+00:29:05.814 [nacos-grpc-client-executor-636] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 164
+00:29:06.008 [nacos-grpc-client-executor-637] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 165
+00:29:06.014 [nacos-grpc-client-executor-637] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 165
+00:29:06.112 [nacos-grpc-client-executor-638] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 166
+00:29:06.122 [nacos-grpc-client-executor-638] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 166
+00:29:06.209 [nacos-grpc-client-executor-639] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 167
+00:29:06.216 [nacos-grpc-client-executor-639] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 167
+00:29:06.310 [nacos-grpc-client-executor-640] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Receive server push request, request = NotifySubscriberRequest, requestId = 168
+00:29:06.318 [nacos-grpc-client-executor-640] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [4085f262-1321-4c1e-9652-368850febee4] Ack server push request, request = NotifySubscriberRequest, requestId = 168
+00:29:07.469 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+00:29:07.480 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+00:29:07.812 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+00:29:07.812 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@16a22649[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+00:29:07.812 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1656259002694_192.168.2.2_64532
+00:29:07.815 [nacos-grpc-client-executor-642] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1656259002694_192.168.2.2_64532]Ignore complete event,isRunning:false,isAbandon=false
+00:29:07.818 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@71f26393[Running, pool size = 9, active threads = 0, queued tasks = 0, completed tasks = 643]

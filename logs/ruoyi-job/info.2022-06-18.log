@@ -1,0 +1,65 @@
+23:50:14.044 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.3.Final
+23:50:18.027 [main] INFO  c.a.n.c.r.client - [lambda$createClient$0,80] - [RpcClientFactory] create a new rpc client of 08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0
+23:50:18.333 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 191 ms to scan 1 urls, producing 3 keys and 6 values 
+23:50:18.459 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 48 ms to scan 1 urls, producing 4 keys and 9 values 
+23:50:18.507 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 34 ms to scan 1 urls, producing 3 keys and 10 values 
+23:50:19.166 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 639 ms to scan 196 urls, producing 0 keys and 0 values 
+23:50:19.181 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 14 ms to scan 1 urls, producing 1 keys and 5 values 
+23:50:19.211 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 21 ms to scan 1 urls, producing 1 keys and 7 values 
+23:50:19.248 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 26 ms to scan 1 urls, producing 2 keys and 8 values 
+23:50:19.700 [main] INFO  o.r.Reflections - [scan,232] - Reflections took 442 ms to scan 196 urls, producing 0 keys and 0 values 
+23:50:19.705 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] RpcClient init label, labels = {module=config, Vipserver-Tag=null, source=sdk, Amory-Tag=null, Location-Tag=null, taskId=0, AppName=unknown}
+23:50:19.709 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$383/2128022929
+23:50:19.710 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$384/880331985
+23:50:19.713 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+23:50:19.717 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+23:50:19.790 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Try to connect to server on start up, server: {serverIp = '192.168.2.11', server main port = 8848}
+23:50:25.203 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Try to connect to server on start up, server: {serverIp = '192.168.2.11', server main port = 8848}
+23:50:27.795 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Try to connect to server on start up, server: {serverIp = '192.168.2.11', server main port = 8848}
+23:50:29.860 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+23:50:29.856 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Try to reconnect to a new server, server is  not appointed, will choose a random server.
+23:50:29.861 [main] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$393/625965093
+23:50:31.543 [main] INFO  c.r.j.RuoYiJobApplication - [logStartupProfileInfo,646] - The following 1 profile is active: "dev"
+23:50:35.101 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 1 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:38.006 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 2 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:40.861 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 3 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:43.505 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 4 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:46.306 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 5 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:48.372 [main] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9203"]
+23:50:48.374 [main] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+23:50:48.375 [main] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.62]
+23:50:49.094 [main] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+23:50:49.241 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 6 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:51.339 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1220] - Using default implementation for ThreadExecutor
+23:50:51.452 [main] INFO  o.q.c.SchedulerSignalerImpl - [<init>,61] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+23:50:51.453 [main] INFO  o.q.c.QuartzScheduler - [<init>,229] - Quartz Scheduler v.2.3.2 created.
+23:50:51.524 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:50:52.638 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 7 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:55.721 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 8 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:50:59.129 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 9 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:02.430 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 10 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:06.041 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 11 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:09.404 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 12 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:12.851 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 13 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:14.625 [main] INFO  o.q.c.QuartzScheduler - [initialize,294] - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'RuoyiScheduler' with instanceId 'xujianfeng1655567451345'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+23:51:14.625 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1374] - Quartz scheduler 'RuoyiScheduler' initialized from an externally provided properties instance.
+23:51:14.626 [main] INFO  o.q.i.StdSchedulerFactory - [instantiate,1378] - Quartz scheduler version: 2.3.2
+23:51:14.653 [main] INFO  o.q.c.QuartzScheduler - [setJobFactory,2293] - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@71a34b3b
+23:51:16.058 [main] INFO  c.z.h.HikariDataSource - [getConnection,110] - HikariPool-1 - Starting...
+23:51:16.382 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 14 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:19.998 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 15 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:23.653 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 16 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:27.423 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 17 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:31.295 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 18 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:35.274 [com.alibaba.nacos.client.remote.worker] INFO  c.a.n.c.r.client - [printIfInfoEnabled,60] - [08aa6ed6-5abb-4d01-84af-6d23d62cf8c4_config-0] Fail to connect server, after trying 19 times, last try server is {serverIp = '192.168.2.11', server main port = 8848}, error = unknown
+23:51:38.114 [main] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_xujianfeng1655567451345 shutting down.
+23:51:38.114 [main] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_xujianfeng1655567451345 paused.
+23:51:38.115 [main] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_xujianfeng1655567451345 shutdown complete.
+23:51:38.120 [main] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]

@@ -1,0 +1,1 @@
+14:43:03.792 [boundedElastic-8] ERROR c.r.g.h.GatewayExceptionHandler - [handle,52] - [网关异常处理]请求路径:/system/user/getInfo,异常信息:503 SERVICE_UNAVAILABLE "Unable to find instance for ruoyi-system"

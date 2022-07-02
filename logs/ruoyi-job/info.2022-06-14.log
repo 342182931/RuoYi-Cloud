@@ -1,0 +1,13 @@
+01:38:38.440 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_xujianfeng1655134265977 paused.
+01:38:38.763 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,94] - De-registering from Nacos Server now...
+01:38:38.769 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,114] - De-registration finished.
+01:38:39.087 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,454] - Shutdown rpc client, set status to shutdown
+01:38:39.088 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [shutdown,456] - Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@226d4ed0[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+01:38:39.088 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.client - [closeConnection,591] - Close current connection 1655162927613_192.168.2.2_61576
+01:38:39.093 [nacos-grpc-client-executor-1589] INFO  c.a.n.c.r.c.g.GrpcClient - [printIfInfoEnabled,60] - [1655162927613_192.168.2.2_61576]Ignore complete event,isRunning:false,isAbandon=false
+01:38:39.127 [SpringApplicationShutdownHook] INFO  c.a.n.c.r.c.g.GrpcClient - [shutdown,85] - Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@43f1d731[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 1590]
+01:38:39.351 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,666] - Scheduler RuoyiScheduler_$_xujianfeng1655134265977 shutting down.
+01:38:39.352 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [standby,585] - Scheduler RuoyiScheduler_$_xujianfeng1655134265977 paused.
+01:38:39.355 [SpringApplicationShutdownHook] INFO  o.q.c.QuartzScheduler - [shutdown,740] - Scheduler RuoyiScheduler_$_xujianfeng1655134265977 shutdown complete.
+01:38:39.356 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,350] - HikariPool-1 - Shutdown initiated...
+01:38:39.364 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource - [close,352] - HikariPool-1 - Shutdown completed.
